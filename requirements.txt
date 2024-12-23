@@ -1,0 +1,13 @@
+openai
+python-dotenv
+requests
+pandas
+matplotlib
+beautifulsoup4
+streamlit
+ipywidgets
+gradio
+folium
+redlines
+panel
+jupyter_bokeh
