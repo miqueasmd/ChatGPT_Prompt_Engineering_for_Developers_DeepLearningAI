@@ -68,8 +68,11 @@ response = get_completion_from_messages(messages)
 ```
 ## ☕ Support Me
 
-If you find this project helpful, consider supporting me on Ko-fi:
-Your contributions will help cover fees and materials for my **Computer Science and Engineering studies at UoPeople** starting in September 2025.
+If you like my work, consider supporting my studies!
+
+Your contributions will help cover fees and materials for my **Computer Science and Engineering studies  at UoPeople** starting in September 2025.
+
+Every little bit helps—you can donate from as little as $1.
 
 <a href="https://ko-fi.com/miqueasmd"><img src="https://ko-fi.com/img/githubbutton_sm.svg" /></a>
 
