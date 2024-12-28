@@ -9,21 +9,29 @@ The project covers several key areas of LLM interaction:
 - **Prompting Principles**
   - Writing clear and specific instructions
   - Giving the model time to "think"
+  - Using delimiters for distinct inputs
+  - Structured output generation
 
-- **Key Techniques**
-  - Text summarization
-  - Inference tasks
-  - Text transformation
-  - Format conversion
-  - Chat-based interactions
+- **Key Applications**
+  - Text summarization and extraction
+  - Language translation and tone transformation
+  - Format conversion (JSON, HTML)
+  - Grammar and spelling correction
+  - Interactive chat interfaces
 
 ## Features
 
-- **Structured Output Generation**: Examples of generating JSON, HTML, and other structured formats
-- **Text Analysis**: Sentiment analysis, emotion detection, and topic inference
-- **Language Translation**: Multi-language translation capabilities
-- **Grammar & Spelling**: Text correction and improvement
-- **OrderBot Demo**: Interactive pizza ordering chatbot example
+- **Interactive Components**
+  - Chat interface with styled message display
+  - File upload widget for text analysis
+  - Temperature control for response randomness
+  - Cost calculation for API usage
+
+- **Utility Functions**
+  - Text processing and format conversion
+  - Multi-language support
+  - File handling (CSV, TXT)
+  - Data visualization helpers
 
 ## Prerequisites
 
@@ -35,9 +43,10 @@ pip install -r requirements.txt
 
 1. Clone the repository
 2. Create a `.env` file in the root directory
-3. Add your OpenAI API key:
+3. Add your environment variables:
 ```
 OPENAI_API_KEY=your_api_key_here
+BASE_PATH=your_base_path_here
 ```
 
 ## Usage
@@ -66,6 +75,28 @@ messages = [
 ]
 response = get_completion_from_messages(messages)
 ```
+
+### Interactive Components
+```python
+from helper_functions import open_chatbot, upload_txt_file_widget
+
+# Launch interactive chatbot
+open_chatbot()
+
+# Create file upload widget
+upload_txt_file_widget()
+```
+
+## Project Structure
+
+- `helper_functions.py`: Core utilities and API interactions
+- `prompting_guidelines.ipynb`: Interactive examples and demonstrations
+- Various example files for testing and demonstration
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## ☕ Support Me
 
 If you find this project helpful, consider supporting me on Ko-fi:
